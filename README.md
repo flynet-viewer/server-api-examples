@@ -34,13 +34,19 @@ This repository contains the following example projects:
 Auditing example
 ================================================
 
-The auditing example
+An example of how to implement auditing
 
 ================================================
-Single sign on
+Single sign on with AD
 ================================================
 
-The single sign on example
+A single sign on example using Active Directory
+
+================================================
+Single sign on without AD
+================================================
+
+A single sign on example using the local file system
 
 ================================================
 Support
