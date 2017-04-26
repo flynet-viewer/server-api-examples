@@ -11,10 +11,10 @@ Required Packages
 
 This example uses the following packages, mangage them from NuGet into the WebSSO project in the usual fashion:
 
-arg.js
-jQuery
-Microsoft.CodeDom.DotNetCompilerPlatform
-Microsoft.Net.Compilers
+* arg.js
+* jQuery
+* Microsoft.CodeDom.DotNetCompilerPlatform
+* Microsoft.Net.Compilers
 
 See packages.config in the WebSSO project for details on version numbers.
 
