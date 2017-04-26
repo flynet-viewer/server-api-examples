@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FlyConnector application="SSO" version="1.0" debug="yes" specialAsBlanks="yes">
+  <Screen name="Login" treatAsDefault="true" paddingMode="default" spaceType="blank" cursorHomeRow="3" cursorHomeColumn="8">
+    <Recognize row="3" column="1" text="Login:" type="include" spaceType="blank" />
+  </Screen>
+  <Screen name="Password" treatAsDefault="true" paddingMode="default" spaceType="blank" cursorHomeRow="4" cursorHomeColumn="11">
+    <Recognize row="4" column="1" text="Password:" type="include" spaceType="blank" />
+  </Screen>
+  <Screen name="SignOnComplete" treatAsDefault="true" paddingMode="default" spaceType="blank" cursorHomeColumn="2">
+    <Recognize row="1" column="33" text="FLYNET MAIN MENU" type="include" spaceType="blank" />
+  </Screen>
+</FlyConnector>

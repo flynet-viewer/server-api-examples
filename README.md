@@ -1,4 +1,3 @@
-================================================
 Server API example readme
 ================================================
 
@@ -8,7 +7,6 @@ These are intended for use with the Flynet Simulated Host, which should be confi
 
 The default location of the Insure script is: C:\Program Files\flynet\viewer\SimHostScripts\Insure Script.xml
 
-================================================
 Initial Setup
 ================================================
 
@@ -24,31 +22,31 @@ Select version 4.1.0.x - On a 64-bit version of Windows select the x64 dll, on a
 The web.config file in the FVTerm directory must also be modified to reference the dlls produced by these examples.
 See individual readme files for more detailed instructions.
 
-================================================
 List of examples
 ================================================
 
 This repository contains the following example projects:
 
-================================================
 Auditing example
 ================================================
 
 An example of how to implement auditing
 
-================================================
 Single sign on with AD
 ================================================
 
 A single sign on example using Active Directory
 
-================================================
 Single sign on without AD
 ================================================
 
 A single sign on example using the local file system
 
+Web Single Sign On
 ================================================
+
+A single sign on example using a web page to collect the username and password
+
 Support
 ================================================
 
