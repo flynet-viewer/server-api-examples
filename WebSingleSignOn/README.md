@@ -44,9 +44,11 @@ The definition file supplied with the project (SSO.xml) gives an example of how 
 need to edit this file so that the login screen(s) specific to your host can be recognised by the example. Each screen to be recognised appears as an element
 in the file like this:
 
+~~~~
 <Screen name="Login" treatAsDefault="true" paddingMode="default" spaceType="blank" cursorHomeRow="3" cursorHomeColumn="8">
     <Recognize row="3" column="1" text="Login:" type="include" spaceType="blank" />
 </Screen>
+~~~~
 
 Here the Login screen is recognised because it has the text Login: on it begining at row 3, column 1. In addition, the cursor will be at row 3, column 8. You will
 need to add or modify Screen elements in the file to cover all the screens used to login to your host. Note that the file include recognition for the first screen
